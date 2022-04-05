@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 - Solution URL: [https://github.com/ikreuz](https://github.com/ikreuz/huddle-landing-page-challenge)
-- Live Site URL: [https://vercel.com]()
+- Live Site URL: [https://vercel.com](https://huddle-landing-page-challenge-kappa.vercel.app)
 
 ## My process
 
