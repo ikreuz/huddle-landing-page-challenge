@@ -5,39 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- displays site properly based on user's device -->
-
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./src/css/style.css">
     <title>Frontend Mentor | Huddle landing page with single introductory section</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-        .attribution {
-            font-size: 11px;
-            text-align: center;
-        }
-
-        .attribution a {
-            color: hsl(228, 45%, 44%);
-        }
-    </style>
 </head>
 
-<body>
+<body class="backdrop--img backdrop--color">
+    <!-- <section class="backdrop-img"></section> -->
+    <main class="container container--size">
+        <div class="layout">
+            <section class="layout-logo">
+                <img src="./src/images/logo.svg" alt="Huddle Logo">
+            </section>
 
-    Build The Community Your Fans Will Love
+            <section class="layout-mockup">
+                <img src="./src/images/illustration-mockups.svg" alt="Illustration mockup">
+            </section>
 
-    Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
-    Create connections with your users as you engage in genuine discussion.
+            <section class="layout-info">
+                <div class="layout-wrapper">
+                    <h1>
+                        Build The Community Your Fans Will Love
+                    </h1>
+                    <div class="layout-content">
+                        Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+                        Create connections with your users as you engage in genuine discussion.
+                    </div>
+                    <button class="layout-content__btn transition">
+                        <span>Register</span>
+                    </button>
+                </div>
+            </section>
 
-    Register
+            <section class="layout-social">
+                <ul class="layout-social__list">
+                    <li class="layout-social__list-item">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="layout-social__list-item">
+                        <a href="#">
+                            <i class="fa-brands fa-twitter transition"></i>
+                        </a>
+                    </li>
+                    <li class="layout-social__list-item">
+                        <a href="#">
+                            <i class="fa-brands fa-instagram transition"></i>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
 
-    <footer>
+
+
+    <footer class="footer">
         <p class="attribution">
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
             Coded by <a href="#">Your Name Here</a>.
         </p>
     </footer>
+
+    <script src="https://kit.fontawesome.com/36d1f6f55e.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
